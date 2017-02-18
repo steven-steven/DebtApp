@@ -12,7 +12,7 @@
     tools:context="com.example.hp_pc.debtapp.Debtors">
 
     <TextView
-        android:text="My debtors: Summary"
+        android:text="I owe: Summary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvSummaryIowe"
@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true" />
 
     <ListView
-        android:id="@+id/lvDebtors"
+        android:id="@+id/lvIowe"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/tvSummaryIowe"
@@ -48,7 +48,7 @@
         android:layout_toEndOf="@+id/IBAddActIOwe"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:id="@+id/bBackdebtors"
+        android:id="@+id/bBackIowe"
         android:layout_alignTop="@+id/IBAddActIOwe" />
 
     <ImageButton

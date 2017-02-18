@@ -32,7 +32,8 @@
         <activity android:name=".Summary_entrance_page" />
         <activity android:name=".PasswordCreate" />
         <activity android:name=".Debtors" />
-        <activity android:name=".itemitem"></activity>
+        <activity android:name=".itemitem" />
+        <activity android:name=".Iowe"></activity>
     </application>
 
 </manifest>
