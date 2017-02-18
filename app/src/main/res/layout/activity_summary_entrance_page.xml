@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        android:textSize="50sp"
+        android:textSize="45sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -28,26 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
         android:id="@+id/textView2"
-        android:textSize="24sp" />
-
-    <com.jjoe64.graphview.GraphView
-        android:layout_width="match_parent"
-        android:layout_height="200dip"
-        android:id="@+id/graph"
-        android:layout_below="@id/textView2"/>
-
-    <Button
-        android:text="I OWE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:textSize="30sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:layout_marginBottom="100dp"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button" />
+        android:textSize="20sp" />
 
     <Button
         android:text="MY DEBTORS"
@@ -55,8 +36,30 @@
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:textSize="30sp"
-        android:layout_marginBottom="18dp"
-        android:layout_above="@+id/button2"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/graph"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="I OWE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textSize="30sp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="16dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/graph"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp" />
 
 </RelativeLayout>
