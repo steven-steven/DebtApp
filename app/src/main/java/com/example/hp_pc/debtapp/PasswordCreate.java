@@ -32,16 +32,17 @@ public class PasswordCreate extends AppCompatActivity {
 
                 SharedPreferences password = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
                 String passwordStr = password.getString("CURRENT_PASSWORD","");
-                Toast.makeText(getApplicationContext(), passwordStr.toString() ,Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), passwordStr.toString() ,Toast.LENGTH_LONG).show();
                 SharedPreferences.Editor editor = password.edit();
 
                 if(passwordStr.equals("")){
                     Toast.makeText(getApplicationContext(), "Welcome new user!!",Toast.LENGTH_LONG).show();
                     if (NewPass.equals(NewPass2)){
-                        Toast.makeText(getApplicationContext(), "About to commit" ,Toast.LENGTH_LONG).show();
+//                        Toast.makeText(getApplicationContext(), "About to commit" ,Toast.LENGTH_LONG).show();
                         editor.clear();
                         editor.putString("CURRENT_PASSWORD" , NewPass);
                         editor.commit();
+                        Toast.makeText(getApplicationContext(), "Password Succesfully Saved",Toast.LENGTH_LONG).show();
                     }
                     else {
                         Toast.makeText(getApplicationContext(), "New Passwords Don't Match",Toast.LENGTH_LONG).show();
@@ -53,6 +54,7 @@ public class PasswordCreate extends AppCompatActivity {
                             editor.clear();
                             editor.putString("CURRENT_PASSWORD" , NewPass);
                             editor.commit();
+                            Toast.makeText(getApplicationContext(), "Password Succesfully Saved",Toast.LENGTH_LONG).show();
                         }
                         else {
                             Toast.makeText(getApplicationContext(), "New Passwords Don't Match",Toast.LENGTH_LONG).show();

@@ -40,7 +40,8 @@ public class LoginPage extends AppCompatActivity {
                 String userEnteredPass = etPassword.getText().toString();
 
                 if (passwordStr.equals(userEnteredPass)){
-                    Log.v("Password Checker " , "Correct Password Entered" );
+                    Intent summaryPageIntent = new Intent(LoginPage.this, Summary_entrance_page.class);
+                    startActivity(summaryPageIntent);
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "Wrong Password Try Again!",Toast.LENGTH_LONG).show();

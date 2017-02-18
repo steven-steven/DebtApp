@@ -46,20 +46,20 @@ public class Summary_entrance_page extends AppCompatActivity {
             }
         });
 
-        GraphView graph = (GraphView) findViewById(R.id.graph);
-        BarGraphSeries<DataPoint> series = new BarGraphSeries<>(new DataPoint[] {
-                new DataPoint(1, 6),
-                new DataPoint(2, 5)
-        });
-        graph.addSeries(series);
-        graph.getViewport().setXAxisBoundsManual(true);
-        graph.getViewport().setMinX(0);
-        graph.getViewport().setMaxX(3);
-        graph.getViewport().setYAxisBoundsManual(true);
-        graph.getViewport().setMinY(0);
-        graph.getViewport().setMaxY(8);
-
-        series.setSpacing(50);
+//        GraphView graph = (GraphView) findViewById(R.id.graph);
+//        BarGraphSeries<DataPoint> series = new BarGraphSeries<>(new DataPoint[] {
+//                new DataPoint(1, 6),
+//                new DataPoint(2, 5)
+//        });
+//        graph.addSeries(series);
+//        graph.getViewport().setXAxisBoundsManual(true);
+//        graph.getViewport().setMinX(0);
+//        graph.getViewport().setMaxX(3);
+//        graph.getViewport().setYAxisBoundsManual(true);
+//        graph.getViewport().setMinY(0);
+//        graph.getViewport().setMaxY(8);
+//
+//        series.setSpacing(50);
 /*
         LineChart chart = (LineChart) findViewById(R.id.chart);
         YourData[] dataObjects = ...;
