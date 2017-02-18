@@ -10,13 +10,16 @@ public class Database extends SugarRecord {
 
     String name;
     String moneyVal;
+    String details;
+    String password;
 
     public Database(){
 
     }
 
-    public Database(String name, String moneyVal) {
+    public Database(String name, String moneyVal, String details) {
         this.name = name;
         this.moneyVal = moneyVal;
+        this.details = details;
     }
 }
