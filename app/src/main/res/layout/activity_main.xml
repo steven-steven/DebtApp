@@ -25,14 +25,15 @@
         android:textSize="30sp" />
 
     <TextView
-        android:text="OUR APP NAME"
+        android:text="MoneyGuard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvName"
-        android:textSize="45sp"
+        android:textSize="50sp"
         android:textStyle="normal|bold"
         android:layout_below="@+id/tvWelcome"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false" />
 
     <ImageButton
         android:layout_width="wrap_content"

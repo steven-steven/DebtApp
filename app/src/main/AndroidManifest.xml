@@ -30,7 +30,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Summary_entrance_page" />
-        <activity android:name=".PasswordCreate"></activity>
+        <activity android:name=".PasswordCreate" />
+        <activity android:name=".Debtors"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DebtApp</string>
+    <string name="title_activity_my_debtors">MyDebtors</string>
 </resources>
