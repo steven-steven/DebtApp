@@ -15,7 +15,7 @@
         android:text="Welcome back!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:id="@+id/tvWelcomeback"
         android:textSize="45sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -24,17 +24,17 @@
         android:text="That's what we have so far for you:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/tvWelcomeback"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
-        android:id="@+id/textView2"
+        android:id="@+id/tvwelcomeback2"
         android:textSize="20sp" />
 
     <Button
         android:text="MY DEBTORS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/bmydebtors"
         android:textSize="30sp"
         android:layout_marginTop="14dp"
         android:layout_below="@+id/graph"
@@ -44,20 +44,20 @@
         android:text="I OWE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/bowe"
         android:textSize="30sp"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/bmydebtors"
+        android:layout_alignLeft="@+id/bmydebtors"
+        android:layout_alignStart="@+id/bmydebtors"
         android:layout_marginTop="16dp"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button" />
+        android:layout_alignRight="@+id/bmydebtors"
+        android:layout_alignEnd="@+id/bmydebtors" />
 
     <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
         android:layout_height="200dip"
         android:id="@+id/graph"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/tvwelcomeback2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="8dp" />

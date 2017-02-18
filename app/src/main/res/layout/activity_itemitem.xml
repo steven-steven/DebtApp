@@ -14,7 +14,7 @@
         android:text="Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4"
+        android:id="@+id/tvname"
         android:textSize="40sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -26,11 +26,11 @@
         android:inputType="textPersonName"
         android:text="   "
         android:ems="10"
-        android:layout_below="@+id/textView4"
+        android:layout_below="@+id/tvname"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="9dp"
-        android:id="@+id/editText"
+        android:id="@+id/ETName"
         android:background="@android:color/background_light"
         android:textSize="30sp" />
 
@@ -40,11 +40,11 @@
         android:inputType="textPersonName"
         android:text="     "
         android:ems="10"
-        android:layout_below="@+id/textView5"
+        android:layout_below="@+id/tvDetails"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="9dp"
-        android:id="@+id/editText2"
+        android:id="@+id/ETDetails"
         android:textSize="30sp"
         android:background="@android:color/background_light" />
 
@@ -52,9 +52,9 @@
         android:text="Details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5"
+        android:id="@+id/tvDetails"
         android:textSize="30sp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/ETName"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="13dp" />
@@ -63,11 +63,11 @@
         android:text="Amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/ETDetails"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp"
-        android:id="@+id/textView6"
+        android:id="@+id/tvAmount"
         android:textSize="30sp" />
 
     <EditText
@@ -75,11 +75,11 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:layout_below="@+id/textView6"
+        android:layout_below="@+id/tvAmount"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="15dp"
-        android:id="@+id/editText3"
+        android:id="@+id/ETAmount"
         android:background="@android:color/background_light"
         android:textSize="30sp" />
 
@@ -88,8 +88,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="42dp"
-        android:id="@+id/button3"
-        android:layout_below="@+id/editText3"
+        android:id="@+id/bSavechanges"
+        android:layout_below="@+id/ETAmount"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="17sp" />
@@ -98,9 +98,9 @@
         android:text="Delete this item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
+        android:id="@+id/bdeleteitem"
+        android:layout_alignBaseline="@+id/bSavechanges"
+        android:layout_alignBottom="@+id/bSavechanges"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="17sp" />
