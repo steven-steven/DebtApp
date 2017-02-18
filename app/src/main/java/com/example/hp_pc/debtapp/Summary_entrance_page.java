@@ -70,7 +70,7 @@ public class Summary_entrance_page extends AppCompatActivity {
 
             // turn your data into Entry objects
             entries.add(new Entry(data.getValueX(), data.getValueY()));
-        }
-*/
+        }*/
+
     }
 }
