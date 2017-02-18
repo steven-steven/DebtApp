@@ -11,28 +11,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.hp_pc.debtapp.MainActivity">
 
-    <TextView
-        android:text="WELCOME TO"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvWelcome"
-        android:textSize="60sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="Please, enter your password below:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvPassword"
-        android:layout_weight="2"
-        android:textSize="24sp"
-        android:layout_marginTop="83dp"
-        android:layout_below="@+id/tvWelcome"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="116dp"
@@ -43,14 +21,15 @@
         android:layout_below="@+id/tvPassword"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/background_dark"
-        android:background="@android:color/background_light" />
+        android:background="@android:color/background_light"
+        android:textSize="30sp" />
 
     <TextView
         android:text="OUR APP NAME"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvName"
-        android:textSize="50sp"
+        android:textSize="45sp"
         android:textStyle="normal|bold"
         android:layout_below="@+id/tvWelcome"
         android:layout_centerHorizontal="true" />
@@ -73,4 +52,24 @@
         android:layout_above="@+id/IBRegistration"
         android:layout_alignRight="@+id/tvPassword"
         android:layout_alignEnd="@+id/tvPassword" />
+
+    <TextView
+        android:text="WELCOME TO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcome"
+        android:textSize="55sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Please, enter your password below:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPassword"
+        android:layout_weight="2"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/tvName"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

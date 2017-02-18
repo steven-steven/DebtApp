@@ -10,12 +10,45 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.hp_pc.debtapp.Summary_entrance_page">
 
-    <Button
-        android:text="Button"
+    <TextView
+        android:text="Welcome back!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="50sp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="That's what we have so far for you:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="237dp"
-        android:id="@+id/button" />
+        android:layout_marginTop="6dp"
+        android:id="@+id/textView2"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="I OWE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="100dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:text="MY DEBTORS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textSize="30sp"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
