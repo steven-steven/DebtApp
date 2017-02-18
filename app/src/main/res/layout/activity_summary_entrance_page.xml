@@ -30,14 +30,14 @@
         android:id="@+id/tvwelcomeback2"
         android:textSize="20sp" />
 
+
     <Button
         android:text="MY DEBTORS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bmydebtors"
         android:textSize="30sp"
-        android:layout_marginTop="14dp"
-        android:layout_below="@+id/graph"
+        android:layout_marginTop="300dp"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -46,6 +46,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bowe"
         android:textSize="30sp"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/bmydebtors"
         android:layout_alignLeft="@+id/bmydebtors"
         android:layout_alignStart="@+id/bmydebtors"
@@ -53,13 +54,6 @@
         android:layout_alignRight="@+id/bmydebtors"
         android:layout_alignEnd="@+id/bmydebtors" />
 
-    <com.jjoe64.graphview.GraphView
-        android:layout_width="match_parent"
-        android:layout_height="200dip"
-        android:id="@+id/graph"
-        android:layout_below="@+id/tvwelcomeback2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="8dp" />
+
 
 </RelativeLayout>
