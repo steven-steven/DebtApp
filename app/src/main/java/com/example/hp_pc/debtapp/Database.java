@@ -15,7 +15,7 @@ public class Database extends SugarRecord {
 
     }
 
-    public Database(String name, String moneyVal) {
+    public Database(String name, String moneyVal, String details) {
         this.name = name;
         this.moneyVal = moneyVal;
     }

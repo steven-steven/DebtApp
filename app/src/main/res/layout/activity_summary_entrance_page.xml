@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hp_pc.debtapp.Summary_entrance_page"
-    android:background="#87cefa">
+    tools:context="com.example.hp_pc.debtapp.Summary_entrance_page">
 
 
     <TextView
@@ -31,6 +30,7 @@
         android:id="@+id/tvwelcomeback2"
         android:textSize="20sp" />
 
+
     <Button
         android:text="I OWE"
         android:layout_width="wrap_content"
@@ -42,9 +42,7 @@
         android:layout_alignStart="@+id/bmydebtors"
         android:layout_marginTop="16dp"
         android:layout_alignRight="@+id/bmydebtors"
-        android:layout_alignEnd="@+id/bmydebtors"
-        android:textColor="#ffffff"
-        android:background="#3f51b5" />
+        android:layout_alignEnd="@+id/bmydebtors" />
 
     <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
