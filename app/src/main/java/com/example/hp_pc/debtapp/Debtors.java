@@ -11,4 +11,4 @@ public class Debtors extends AppCompatActivity {
         setContentView(R.layout.activity_debtors);
         getSupportActionBar().setTitle("MoneyGuard");
     }
-}
+}//
