@@ -27,4 +27,4 @@ public class Debtors extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.lvDebtors);
         listView.setAdapter(itemsAdapter);
     }
-}
+}//
