@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hp_pc.debtapp.itemitem">
+    tools:context="com.example.hp_pc.debtapp.itemitem"
+    android:background="#87cefa">
 
     <TextView
         android:text="Name"
@@ -85,23 +86,27 @@
 
     <Button
         android:text="Save changes"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="42dp"
         android:id="@+id/bSavechanges"
         android:layout_below="@+id/ETAmount"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:background="#3f51b5"
+        android:textColor="#ffffff" />
 
     <Button
         android:text="Delete this item"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bdeleteitem"
-        android:layout_alignBaseline="@+id/bSavechanges"
-        android:layout_alignBottom="@+id/bSavechanges"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/bSavechanges"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
 </RelativeLayout>

@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hp_pc.debtapp.Summary_entrance_page">
+    tools:context="com.example.hp_pc.debtapp.Summary_entrance_page"
+    android:background="#87cefa">
 
 
     <TextView
@@ -31,27 +32,19 @@
         android:textSize="20sp" />
 
     <Button
-        android:text="MY DEBTORS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/bmydebtors"
-        android:textSize="30sp"
-        android:layout_marginTop="14dp"
-        android:layout_below="@+id/graph"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:text="I OWE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bowe"
-        android:textSize="30sp"
+        android:textSize="28sp"
         android:layout_below="@+id/bmydebtors"
         android:layout_alignLeft="@+id/bmydebtors"
         android:layout_alignStart="@+id/bmydebtors"
         android:layout_marginTop="16dp"
         android:layout_alignRight="@+id/bmydebtors"
-        android:layout_alignEnd="@+id/bmydebtors" />
+        android:layout_alignEnd="@+id/bmydebtors"
+        android:textColor="#ffffff"
+        android:background="#3f51b5" />
 
     <com.jjoe64.graphview.GraphView
         android:layout_width="match_parent"
@@ -61,5 +54,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="8dp" />
+
+    <Button
+        android:text="MY DEBTORS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmydebtors"
+        android:textSize="28sp"
+        android:layout_marginTop="41dp"
+        android:textColor="#ffffff"
+        android:background="#3f51b5"
+        android:layout_below="@+id/graph"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

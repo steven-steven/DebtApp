@@ -18,7 +18,7 @@ public class LoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_page);
-
+        getSupportActionBar().setTitle(" ");
         //Listener to take user to password change page if needed.
         ImageButton numbers = (ImageButton)findViewById(R.id.IBRegistration);
         numbers.setOnClickListener(new View.OnClickListener(){
@@ -31,7 +31,7 @@ public class LoginPage extends AppCompatActivity {
 
         //Checks if the user entered the right password.
         Button bGo = (Button) findViewById(R.id.bGO);
-        final EditText etPassword = (EditText) findViewById(R.id.etPassword);
+        final EditText etPassword = (EditText) findViewById(R.id.ETPassword);
         bGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
