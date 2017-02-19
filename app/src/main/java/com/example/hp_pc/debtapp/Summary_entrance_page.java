@@ -69,11 +69,11 @@ public class Summary_entrance_page extends AppCompatActivity {
 
         List<Entry> entries = new ArrayList<Entry>();
 
-        for (YourData data : dataObjects) {
-
-            // turn your data into Entry objects
-            entries.add(new Entry(data.getValueX(), data.getValueY()));
-        }*/
+//        for (YourData data : dataObjects) {
+//
+//            // turn your data into Entry objects
+//            entries.add(new Entry(data.getValueX(), data.getValueY()));
+//        }*/
 
     }
 }

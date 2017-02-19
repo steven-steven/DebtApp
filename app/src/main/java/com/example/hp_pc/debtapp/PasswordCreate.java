@@ -1,6 +1,7 @@
 package com.example.hp_pc.debtapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
@@ -44,6 +45,8 @@ public class PasswordCreate extends AppCompatActivity {
                         editor.putString("CURRENT_PASSWORD" , NewPass);
                         editor.commit();
                         Toast.makeText(getApplicationContext(), "Password Succesfully Saved",Toast.LENGTH_LONG).show();
+                        Intent goBack = new Intent(getApplication(), LoginPage.class);
+                        startActivity(goBack);
                     }
                     else {
                         Toast.makeText(getApplicationContext(), "New Passwords Don't Match",Toast.LENGTH_LONG).show();
@@ -56,6 +59,8 @@ public class PasswordCreate extends AppCompatActivity {
                             editor.putString("CURRENT_PASSWORD" , NewPass);
                             editor.commit();
                             Toast.makeText(getApplicationContext(), "Password Succesfully Saved",Toast.LENGTH_LONG).show();
+                            Intent goBack = new Intent(getApplication(), LoginPage.class);
+                            startActivity(goBack);
                         }
                         else {
                             Toast.makeText(getApplicationContext(), "New Passwords Don't Match",Toast.LENGTH_LONG).show();
